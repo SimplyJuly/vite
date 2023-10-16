@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -26,5 +26,23 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style> -->
+<script setup>
+import { RouterView } from 'vue-router';
+import NavBar from './components/NavBar.vue';
+</script>
+
+<template>
+  <v-app>
+    <NavBar/>
+    <RouterView/>
+  </v-app>
+</template>
+
+<style scoped>
+header {
+  line-height: 1.5;
+  max-height: 100vh;
 }
 </style>
