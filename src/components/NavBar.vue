@@ -10,7 +10,7 @@ const pages = ref([
   {url: '/education', label: 'Education', icon: mdiSchoolOutline},
 //   {url: '/skills', label: 'Skills', icon: mdiAccountCheckOutline},
 //   {url: '/projects', label: 'Projects', icon: mdiProjectorScreenOutline},
-//   {url: '/experience', label: 'Experience', icon: mdiBriefcaseOutline},
+  {url: '/experience', label: 'Experience', icon: mdiBriefcaseOutline},
 ])
 </script>
 
@@ -22,7 +22,7 @@ const pages = ref([
     
     <v-divider></v-divider>
     
-    <v-list density="compact" :mandatory="trueValue" nav>
+    <v-list density="compact" nav>
       <RouterLink v-for="option in pages" :to="option.url" :key="option.label" class="routerLinks">
         <v-list-item :value="option.label">
           <template v-slot:prepend>

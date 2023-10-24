@@ -8,7 +8,7 @@ const downloadIcon = mdiDownload;
 <template>
     <v-toolbar class="download">
         <v-toolbar-title>Download</v-toolbar-title>
-        <v-btn href="../assets/Resume.pdf" download>
+        <v-btn href="@/Resume.pdf" download>
             <svg-icon type="mdi" :path="downloadIcon"/>
         </v-btn>
     </v-toolbar>
