@@ -7,6 +7,12 @@ const props = defineProps ({
 <template>
   <div class="header">
     <h1>{{ info.title }}</h1>
-    <h3>{{ info.subtitle }}</h3>
+    <p class="subtitle">{{ info.subtitle }}</p>
   </div>
-</template>
+</template> 
+
+<style>
+.subtitle {
+  font-size: 1.125rem;
+}
+</style>

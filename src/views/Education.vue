@@ -138,7 +138,7 @@ const courses = ref([
 
 const headerInfo = ref({
   title: 'Computer Science - Bachelors of Science',
-  subtitle: 'Courses taken:',
+  subtitle: '“This degree program serves to give the student excellent preparation for careers in computer science, for graduate study, or for fields where CS is an important ingredient.” - University of Missouri - Kansas City',
 })
 </script>
 
