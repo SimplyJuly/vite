@@ -1,17 +1,14 @@
 <script setup>
-import { ref } from "vue";
 const props = defineProps ({
   cardData: Array,
   message: String
 });
 
-var reveal = ref(false);
-
-function toggle(data){
-  console.log(data);
-  data.toggle = !data.toggle;
-  console.log(data);
-}
+// function toggle(data){
+//   console.log(data);
+//   data.toggle = !data.toggle;
+//   console.log(data);
+// }
 
 </script>
 

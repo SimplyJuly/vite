@@ -25,11 +25,11 @@
         </v-card-text>
         <v-card-text style="text-indent: 20px;">
           Julio proudly serves his community through AmeriCorp’s Lift as You Climb program. Lift as You Climb gathers 
-          service members to peer mentor students in participating scholar programs to strengthen their sense of belonging
-          , increase their academic abilities, and connect them to any university resource that they may need. Julio is
-           also honored to credit his growth in service to the following organizations that allowed him to play a small 
-           role in their massive objective of helping their communities through ecological and/or interpersonal efforts: 
-           Missouri Stream Team, Wayside Waifs, Heart n Hand, Service Learning, HappyBottoms, and more.
+          service members to peer mentor students in participating scholar programs to strengthen their sense of belonging,
+          increase their academic abilities, and connect them to any university resource that they may need. Julio is
+          also honored to credit his growth in service to the following organizations that allowed him to play a small 
+          role in their massive objective of helping their communities through ecological and/or interpersonal efforts: 
+          Missouri Stream Team, Wayside Waifs, Heart n Hand, Service Learning, HappyBottoms, and more.
         </v-card-text>
         <v-card-text style="text-indent: 20px;">
           Julio credits his achievements and best traits to the bottomless well of love and support that has been supplied
