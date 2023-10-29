@@ -1,7 +1,22 @@
 /* Resume File */
-.download {
+.downloadSection {
   text-align: right;
   padding: 0px 20px;
+  height: 80px;
+  background-color: #838891 !important;
+}
+
+.v-toolbar__content { /* This surrounds the text and icon */
+  height: 100% !important;
+}
+
+.v-toolbar-title__placeholder {
+  font-size: 25px;
+}
+
+.downloadIcon {
+  height: 40px;
+  width: 40px;
 }
 
 /* Front Page */
