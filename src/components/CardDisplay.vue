@@ -31,8 +31,8 @@ const props = defineProps ({
                 <v-col class="titleWrapper">
                   <v-card-title>{{ data.title }}</v-card-title>
                 </v-col>
-                <v-col cols="12" style="height: 150px">
-                  <v-card-text>{{ data.description }}</v-card-text>
+                <v-col cols="12" class="descriptionWrapper">
+                  <v-card-text class="description">{{ data.description }}</v-card-text>
                 </v-col>
                 <v-col class="buttonWrapper">
                   <v-card-actions>
@@ -95,6 +95,14 @@ const props = defineProps ({
   height: 90px;
   display: flex;
   align-items: center;
+}
+
+.descriptionWrapper {
+  height: 150px;
+}
+
+.description {
+  padding-top: 0 !important;
 }
 
 .buttonWrapper {

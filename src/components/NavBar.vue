@@ -8,7 +8,7 @@ const pages = ref([
   {url: '/', label: 'Home', icon: mdiHomeAccount},
   {url: '/resume', label: 'Resume', icon: mdiNoteTextOutline},
   {url: '/education', label: 'Education', icon: mdiSchoolOutline},
-//   {url: '/skills', label: 'Skills', icon: mdiAccountCheckOutline},
+  {url: '/skills', label: 'Skills', icon: mdiAccountCheckOutline},
 //   {url: '/projects', label: 'Projects', icon: mdiProjectorScreenOutline},
   {url: '/experience', label: 'Experience', icon: mdiBriefcaseOutline},
 ])
