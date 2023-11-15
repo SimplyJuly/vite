@@ -494,8 +494,8 @@ packages:
       '@vue/server-renderer': 3.2.47_vue@3.2.47
       '@vue/shared': 3.2.47
 
-  /vue-router/4.2.5:
-  /@jamescoyle/vue-icon/0.1.2:
-  /@mdi/js/7.3.67:
-  /vue-router/4.2.5:
-  /vuetify/3.3.21:
+  # /vue-router/4.2.5:
+  # /@jamescoyle/vue-icon/0.1.2:
+  # /@mdi/js/7.3.67:
+  # /vue-router/4.2.5:
+  # /vuetify/3.3.21:
