@@ -7,6 +7,10 @@ specifiers:
 
 dependencies:
   vue: 3.2.47
+  vue-router: 4.2.5
+  '@jamescoyle/vue-icon': 0.1.2
+  '@mdi/js': 7.3.67
+  vuetify: 3.3.21:
 
 devDependencies:
   '@vitejs/plugin-vue': 4.0.0_vite@4.1.1+vue@3.2.47
@@ -493,9 +497,3 @@ packages:
       '@vue/runtime-dom': 3.2.47
       '@vue/server-renderer': 3.2.47_vue@3.2.47
       '@vue/shared': 3.2.47
-
-  # /vue-router/4.2.5:
-  # /@jamescoyle/vue-icon/0.1.2:
-  # /@mdi/js/7.3.67:
-  # /vue-router/4.2.5:
-  # /vuetify/3.3.21:
