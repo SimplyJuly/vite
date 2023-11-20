@@ -3,7 +3,7 @@ import FrontPage from '../views/FrontPage.vue'
 import Resume from '../views/Resume.vue'
 import Education from '../views/Education.vue'
 import Skills from '../views/Skills.vue'
-// import Projects from '../views/Projects.vue'
+import Projects from '../views/Projects.vue'
 import Experience from '../views/Experience.vue'
 
 
@@ -30,11 +30,11 @@ const router = createRouter({
       name: 'skills',
       component: Skills,
     },
-    // {
-    //   path: '/projects',
-    //   name: 'projects',
-    //   component: Projects,
-    // },
+    {
+      path: '/projects',
+      name: 'projects',
+      component: Projects,
+    },
     {
       path: '/experience',
       name: 'experience',
