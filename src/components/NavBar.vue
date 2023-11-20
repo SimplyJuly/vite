@@ -17,7 +17,7 @@ const pages = ref([
 <template>
   <v-navigation-drawer expand-on-hover rail rail-width="60">
     <v-list>
-      <v-list-item prepend-avatar="/src/assets/Julio.jpg" title="Julio Gracida" subtitle="jcgdc2@umsystem.edu"></v-list-item>
+      <v-list-item prepend-avatar="/people/Julio.jpg" title="Julio Gracida" subtitle="jcgdc2@umsystem.edu"></v-list-item>
     </v-list>
     
     <v-divider></v-divider>
