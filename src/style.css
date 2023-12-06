@@ -64,6 +64,11 @@
   text-align: center;
 }
 
+.classDescription {
+  background-color: #2A324B;
+  color: #E1E5EE;
+}
+
 /* Used in all views */
 .shiftRight {
   margin-left: 60px;

@@ -143,20 +143,26 @@ const headerInfo = ref({
 </script>
 
 <template>
-  <v-row class="shiftRight">
-    <v-col>
-      <TheHeader :info="headerInfo" />
-      <v-card
-        v-for="course in courses"
-        :title="course.title"
-        :key="course.title"
-        :text="course.description"
-      >
-      </v-card>
-    </v-col>
-  </v-row>
+  <v-container fluid="true" class="background">
+    <v-row class="shiftRight">
+      <v-col>
+        <TheHeader :info="headerInfo"/>
+        <v-card
+          v-for="course in courses"
+          :title="course.title"
+          :key="course.title"
+          :text="course.description"
+          class="cardStyle classDescription"
+        >
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <style scoped>
 @import "/src/style.css";
+.cardStyle {
+  margin: 10px;
+}
 </style>
