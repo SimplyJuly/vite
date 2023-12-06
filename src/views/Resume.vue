@@ -12,6 +12,5 @@ const downloadIcon = mdiDownload;
             <svg-icon class="downloadIcon" type="mdi" :path="downloadIcon"/>
         </v-btn>
     </v-toolbar>
-
-    <img src="../assets/Resume.pdf">
+    <img src="../assets/resume.jpeg">
 </template>
